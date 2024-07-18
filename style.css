@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #001e4d;
+}
+
+.app {
+    background-color: rgb(213, 207, 199);
+    width: 90vw;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1 {
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz {
+    padding: 20px 0px;
+}
+
+.quiz h2 {
+    font-size: 18px;
+    color:#001e4d;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: white;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border : 1px solid #222;
+    border-radius:6px;
+    padding: 10px;
+    margin: 10px 0px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background-color: #222;
+    color: white;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next_btn {
+    background: #001e4d;
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0px;
+    padding: 10px;
+    margin: 20px auto 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.Correct {
+    background-color: #9aeabc;
+}
+
+.Incorrect {
+    background-color: #ff9393;
+}
